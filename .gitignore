@@ -1,0 +1,19 @@
+# ESP-IDF сборка
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+.cache/
+
+# Бинарники
+*.bin
+*.elf
+*.map
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

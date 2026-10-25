@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "switch_driver.c"
+        "battery_monitor.c"
+        "rgb_led.c"
+        "espnow_bridge.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        nvs_flash
+        esp_pm
+        esp_timer
+        driver
+        esp_adc
+        led_strip
+        esp_wifi
+        esp_netif
+        esp_event
+)
